@@ -1,2 +1,2 @@
-dotenv.config();
-console.log(`Your port is ${process.env.PORT}`);
+const { port } = require('./src/config/config');
+console.log(`Your port is ${port}`);
