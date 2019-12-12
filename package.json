@@ -1,0 +1,37 @@
+{
+  "name": "students-api",
+  "version": "1.0.0",
+  "description": "A Student API demo built in Node and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jakub41/Students-api-demo.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "API"
+  ],
+  "author": "Jakub Lemiszewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jakub41/Students-api-demo/issues"
+  },
+  "homepage": "https://github.com/Jakub41/Students-api-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "diskdb": "^0.1.17",
+    "express-list-endpoints": "^4.0.1",
+    "express-list-routes": "^0.1.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
