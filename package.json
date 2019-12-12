@@ -30,8 +30,7 @@
   "devDependencies": {
     "diskdb": "^0.1.17",
     "express-list-endpoints": "^4.0.1",
-    "express-list-routes": "^0.1.4",
-    "lodash": "^4.17.15",
+    "lodash": ">=4.17.15",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
   }
