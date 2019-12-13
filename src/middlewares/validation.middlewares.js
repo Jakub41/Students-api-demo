@@ -33,7 +33,7 @@ const checkFieldsStudent = (req, res, next) => {
 };
 
 // Export the methods
-export default {
+module.exports = {
     mustBeInt,
     checkFieldsStudent
 };
